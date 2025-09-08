@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() 
+{
+    float x,y,a,p;
+    
+    cout<<"valor del numerador: ";
+    cin>>x;
+    
+    cout<<"valor del denominador: ";
+    cin>>y;
+    
+    cout<<"valor del entero: ";
+    cin>>a;
+    
+    p=(a*x)+y;
+    
+    cout<<"La expresión es: "<<p<<"/"<<a;
+    
+    return 0;
+}
