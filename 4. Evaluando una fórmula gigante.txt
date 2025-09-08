@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float x,y,z,a,b;
+    
+    cout<<"introducir el valor de x : ";
+    
+    cin>>x;
+    cout<<"introducir el valor de y : ";
+    
+    cin>>y;
+    cout<<"introducir el valor de z : ";
+    
+    cin>>z;
+    
+    a=((2*x+y)/(z))*((y*y*y)-z);
+    
+    b=(((x+2*y+3*z)/(z-2*y-3*x))+x*x+z*z);
+    
+    cout<<"El valor de la expresion es : "<<a/b;
+
+    return 0;
+}
