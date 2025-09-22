@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main ()
+{
+cout<<"CLAVE  |      ZONA       | PRECIO"<<endl;
+cout<<" 12    |America del Norte|   2"<<endl;
+cout<<" 15    | America Central |  2.2"<<endl;
+cout<<" 18    | America del Sur |  4.5"<<endl;
+cout<<" 19    |     Europa      |  3.5"<<endl;
+cout<<" 23    |      Asia       |   6"<<endl;
+cout<<" 25    |     Africa      |   6"<<endl;
+cout<<" 29    |     Oceania     |   5"<<endl;
+cout<<"Introducir clave y llamada"<<endl;
+int a,b;
+cin>>b>>a;
+switch(b){
+case 12:cout<<a*2;break;
+case 15:cout<<a*2.2;break;
+case 18:cout<<a*4.5;break;
+case 19:cout<<a*3.5;break;
+case 23:cout<<a*6;break;
+case 25:cout<<a*6;break;
+case 29:cout<<a*5;break;
+default:cout<<"no existe esta clave";
+}
+}
